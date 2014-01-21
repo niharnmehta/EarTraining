@@ -21,6 +21,9 @@
                     <state key="normal" title="Play Notes">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="playNotes:" destination="-1" eventType="touchUpInside" id="33r-FP-bl9"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mP4-HE-ol2">
                     <rect key="frame" x="235" y="152" width="35" height="30"/>

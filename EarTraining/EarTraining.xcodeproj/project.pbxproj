@@ -23,6 +23,8 @@
 		2E8BD1F4188C7E1B00305F82 /* ETMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BD1F2188C7E1B00305F82 /* ETMainViewController.xib */; };
 		2E8BD1F8188C856D00305F82 /* ETTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BD1F6188C856D00305F82 /* ETTestViewController.m */; };
 		2E8BD1F9188C856D00305F82 /* ETTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BD1F7188C856D00305F82 /* ETTestViewController.xib */; };
+		2E8BD1FB188C9E8800305F82 /* note1001.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BD1FA188C9E8800305F82 /* note1001.m4a */; };
+		2E8BD218188EFD2500305F82 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8BD1FC188C9FEC00305F82 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		2E8BD1F5188C856D00305F82 /* ETTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTestViewController.h; sourceTree = "<group>"; };
 		2E8BD1F6188C856D00305F82 /* ETTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTestViewController.m; sourceTree = "<group>"; };
 		2E8BD1F7188C856D00305F82 /* ETTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETTestViewController.xib; sourceTree = "<group>"; };
+		2E8BD1FA188C9E8800305F82 /* note1001.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = note1001.m4a; sourceTree = "<group>"; };
+		2E8BD1FC188C9FEC00305F82 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8BD218188EFD2500305F82 /* AudioToolbox.framework in Frameworks */,
 				2E8BD1C4188C7D8700305F82 /* CoreGraphics.framework in Frameworks */,
 				2E8BD1C6188C7D8700305F82 /* UIKit.framework in Frameworks */,
 				2E8BD1C2188C7D8700305F82 /* Foundation.framework in Frameworks */,
@@ -106,6 +111,7 @@
 		2E8BD1C0188C7D8700305F82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E8BD1FC188C9FEC00305F82 /* AudioToolbox.framework */,
 				2E8BD1C1188C7D8700305F82 /* Foundation.framework */,
 				2E8BD1C3188C7D8700305F82 /* CoreGraphics.framework */,
 				2E8BD1C5188C7D8700305F82 /* UIKit.framework */,
@@ -134,6 +140,7 @@
 		2E8BD1C8188C7D8700305F82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E8BD1FA188C9E8800305F82 /* note1001.m4a */,
 				2E8BD1C9188C7D8700305F82 /* EarTraining-Info.plist */,
 				2E8BD1CA188C7D8700305F82 /* InfoPlist.strings */,
 				2E8BD1CD188C7D8700305F82 /* main.m */,
@@ -239,6 +246,7 @@
 				2E8BD1CC188C7D8700305F82 /* InfoPlist.strings in Resources */,
 				2E8BD1F9188C856D00305F82 /* ETTestViewController.xib in Resources */,
 				2E8BD1D4188C7D8700305F82 /* Images.xcassets in Resources */,
+				2E8BD1FB188C9E8800305F82 /* note1001.m4a in Resources */,
 				2E8BD1F4188C7E1B00305F82 /* ETMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +470,7 @@
 				2E8BD1EC188C7D8700305F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E8BD1ED188C7D8700305F82 /* Build configuration list for PBXNativeTarget "EarTrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +479,7 @@
 				2E8BD1EF188C7D8700305F82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

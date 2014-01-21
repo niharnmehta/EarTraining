@@ -7,8 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface ETTestViewController : UIViewController
+{
+    SystemSoundID _noteSound;
+}
+
 - (IBAction)backToMain:(id)sender;
+- (IBAction)playNotes:(id)sender;
 
 @end
+
+
+
